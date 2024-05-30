@@ -234,7 +234,39 @@ footer{
     display: flex;
     gap: 40px;
 }
-.twetter img{
-    width: 20px;
+.reseaux .twetter img{
+    width: 30px;
     height: 20px;
+    
+   
+}
+
+@media (max-width:900px) {
+.feature-content{
+    display: block;
+    width: 100%; }
+    .studio{
+        display: flex;
+        justify-content: left;
+        gap:5px;
+        text-align: center;
+        align-self: self-start;
+        color: #ffff;
+        height: 100px;
+    }
+   
+#sign-up{
+    display: block;
+    /* justify-content: center; */
+    margin-top: 200px;
+    width: 100%;
+    flex-direction: column;
+}
+#sign-up .left{
+    margin-top:200px ;
+    font-size: 40px;
+    display: block;
+    flex-direction: column;
+    
+}
 }
